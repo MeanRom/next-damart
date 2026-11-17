@@ -55,7 +55,7 @@ export default function LightWarm() {
               <span className="block font-bold">&amp; WARM</span>
             </h2>
             <Image
-              className="mt-3 h-auto w-40 lg:absolute lg:mt-0 lg:w-auto lg:-translate-y-5 lg:translate-x-70"
+              className="mt-3 h-auto w-40 lg:w-52"
               src="/assets/thermolactyl.svg"
               alt=""
               width={250}
