@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="nouvelle-collection"
-      className="relative isolate flex min-h-[34rem] items-end overflow-hidden lg:aspect-[16/9] lg:min-h-0 lg:items-center"
+      className="relative isolate flex min-h-[85dvh] items-end overflow-hidden lg:aspect-[16/9] lg:min-h-0 lg:items-center"
     >
       <Image
         src="/assets/room-wood-woman.webp"
@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0 overflow-hidden">
         <Parallax
           range={160}
-          className="absolute -left-[20rem] top-[3rem] -z-10 scale-175"
+          className="absolute -left-10 top-4 -z-10 w-40 lg:-left-[20rem] lg:top-[3rem] lg:w-auto lg:scale-175"
         >
           <Reveal x={-120} y={0} delay={0.25} duration={1} ease={SLOW_IN_OUT}>
             <Image
@@ -38,7 +38,7 @@ export default function Hero() {
         </Parallax>
         <Parallax
           range={-160}
-          className="absolute -bottom-[18rem] -right-[18rem] -z-10 scale-175"
+          className="absolute -bottom-6 -right-10 -z-10 w-48 lg:-bottom-[18rem] lg:-right-[18rem] lg:w-auto lg:scale-175"
         >
           <Reveal x={120} y={0} delay={0.45} duration={1} ease={SLOW_IN_OUT}>
             <Image
