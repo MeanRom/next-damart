@@ -16,7 +16,7 @@ export default function Hero() {
         fill
         priority
         sizes="100vw"
-        className="-z-20 object-cover object-left lg:object-center"
+        className="-z-20 object-cover object-[50%_75%] lg:object-center"
       />
 
       {/* Decorative red shapes, clipped to the hero */}

@@ -12,7 +12,7 @@ export default function Sport() {
         alt=""
         width={1200}
         height={150}
-        className="pointer-events-none absolute left-1/2 top-0 w-[90%] max-w-6xl -translate-x-1/2 -translate-y-1/2"
+        className="pointer-events-none absolute md:block hidden left-1/2 top-0 w-[90%] max-w-6xl -translate-x-1/2 -translate-y-1/2"
       />
 
       <div className="relative flex min-h-[38rem] items-center justify-center overflow-hidden px-6 pb-[18rem] pt-24 lg:min-h-[46rem] lg:pb-24">
