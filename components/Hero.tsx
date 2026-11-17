@@ -16,11 +16,11 @@ export default function Hero() {
         fill
         priority
         sizes="100vw"
-        className="-z-20 object-cover"
+        className="-z-20 object-cover object-left lg:object-center"
       />
 
       {/* Decorative red shapes, clipped to the hero */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 hidden overflow-hidden lg:block">
         <Parallax
           range={160}
           className="absolute -left-10 top-4 -z-10 w-40 lg:-left-[20rem] lg:top-[3rem] lg:w-auto lg:scale-175"

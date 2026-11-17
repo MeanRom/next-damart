@@ -28,7 +28,7 @@ export default function RainProtect() {
                 alt="Sac à dos imperméable"
                 fill
                 sizes="20vw"
-                className="object-cover"
+                className="object-cover object-right"
               />
             </div>
           </Parallax>
