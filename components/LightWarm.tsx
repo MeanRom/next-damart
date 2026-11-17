@@ -47,10 +47,10 @@ export default function LightWarm() {
         </Parallax>
       </div>
 
-      <div className="relative mx-auto grid max-w-[90rem] items-center gap-8 px-6 pt-20 sm:px-10 lg:min-h-[48rem] lg:grid-cols-2 lg:pt-28">
-        <div className="pb-28 lg:pb-40">
+      <div className="relative mx-auto grid max-w-[90rem] items-center gap-6 px-6 pt-12 sm:px-10 lg:min-h-[48rem] lg:grid-cols-2 lg:gap-8 lg:pt-28">
+        <div className="pb-6 lg:pb-40">
           <Reveal>
-            <h2 className="text-6xl leading-[0.95] text-white lg:text-8xl">
+            <h2 className="text-5xl leading-[0.95] sm:text-6xl text-white lg:text-8xl">
               <span className="block font-light">LIGHT</span>
               <span className="block font-bold">&amp; WARM</span>
             </h2>
@@ -89,13 +89,13 @@ export default function LightWarm() {
           </Reveal>
         </div>
 
-        <div className="self-end mx-auto w-64 lg:ml-auto lg:mr-0 lg:w-[30rem]">
+        <div className="self-end mx-auto w-48 lg:ml-auto lg:mr-0 lg:w-[30rem]">
           <Reveal x={60} y={0} className="relative aspect-[575/798]">
             <Image
               src="/assets/woman-standalone.webp"
               alt="Pull jacquard Thermolactyl"
               fill
-              sizes="(min-width: 64rem) 30rem, 16rem"
+              sizes="(min-width: 64rem) 30rem, 12rem"
               className="object-contain object-bottom"
             />
           </Reveal>

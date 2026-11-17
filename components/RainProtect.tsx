@@ -6,13 +6,13 @@ export default function RainProtect() {
   return (
     <section
       id="rain"
-      className="relative z-10 -mt-10 bg-[linear-gradient(to_bottom,transparent_5rem,white_5rem)] px-6 pb-12 lg:pb-16"
+      className="relative z-10 -mt-10 bg-[linear-gradient(to_bottom,transparent_5rem,white_5rem)] px-0 pb-8 sm:px-6 lg:pb-16"
     >
       <Parallax
         range={30}
         className="mx-auto max-w-4xl hover:scale-103 transition-all duration-50"
       >
-        <Reveal className="relative aspect-[1716/713] overflow-hidden rounded-[2.5rem]">
+        <Reveal className="relative aspect-[4/3] overflow-hidden sm:aspect-[1716/713] sm:rounded-[2.5rem]">
           <Image
             src="/assets/rain-protection.webp"
             alt="Veste Rain Protect by Damart"
