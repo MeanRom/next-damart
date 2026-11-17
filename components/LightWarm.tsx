@@ -89,7 +89,7 @@ export default function LightWarm() {
           </Reveal>
         </div>
 
-        <div className="self-end ml-auto w-72 lg:w-[30rem] lg:mr-0 lg:w-[30rem]">
+        <div className="self-end ml-auto w-72 lg:w-[30rem]">
           <Reveal x={60} y={0} className="relative aspect-[575/798]">
             <Image
               src="/assets/woman-standalone.webp"
