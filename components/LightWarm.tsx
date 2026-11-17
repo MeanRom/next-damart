@@ -55,7 +55,7 @@ export default function LightWarm() {
               <span className="block font-bold">&amp; WARM</span>
             </h2>
             <Image
-              className="mt-3 h-auto w-40 sm:absolute sm:mt-0 sm:w-auto sm:-translate-y-5 sm:translate-x-70"
+              className="mt-3 h-auto w-40 lg:absolute lg:mt-0 lg:w-auto lg:-translate-y-5 lg:translate-x-70"
               src="/assets/thermolactyl.svg"
               alt=""
               width={250}
@@ -89,7 +89,7 @@ export default function LightWarm() {
           </Reveal>
         </div>
 
-        <div className="self-end ml-auto w-72 lg:w-[30rem]">
+        <div className="self-end ml-auto w-64 sm:w-72 lg:w-[30rem]">
           <Reveal x={60} y={0} className="relative aspect-[575/798]">
             <Image
               src="/assets/woman-standalone.webp"

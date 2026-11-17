@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="nouvelle-collection"
-      className="relative isolate flex min-h-[85dvh] items-end overflow-hidden lg:aspect-[16/9] lg:min-h-0 lg:items-center"
+      className="relative isolate flex min-h-[85dvh] items-end sm:min-h-[min(85dvh,40rem)] overflow-hidden lg:aspect-[16/9] lg:min-h-0 lg:items-center"
     >
       <Image
         src="/assets/room-wood-woman.webp"
