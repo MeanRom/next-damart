@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Catalogue from "@/components/Catalogue";
 import Collections from "@/components/Collections";
 import Hero from "@/components/Hero";
 import LightWarm from "@/components/LightWarm";
@@ -15,6 +16,7 @@ export default function Home() {
         <RainProtect />
         <Collections />
         <Sport />
+        <Catalogue />
       </main>
     </>
   );
